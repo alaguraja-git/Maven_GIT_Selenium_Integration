@@ -19,7 +19,8 @@ public class test {
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--no-sandbox", "--disable-dev-shm-usage");	
 		chromeOptions.setBinary("C:\\Users\\HP\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-		driver = new ChromeDriver(chromeOptions);			
+		driver = new ChromeDriver(chromeOptions);
+		System.out.println("browser opened");
 		}
 		
 		@Test
